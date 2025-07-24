@@ -1,7 +1,31 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <dict>
+            <key>URL</key>
+            <string>https://your-server.com/collect_udid</string> <!-- Замените на ваш URL -->
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>PRODUCT</string>
+                <string>VERSION</string>
+            </array>
+        </dict>
+        <key>PayloadOrganization</key>
+        <string>Your Organization</string>
+        <key>PayloadDisplayName</key>
+        <string>Get UDID</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>UNIQUE-UUID-HERE</string> <!-- Уникальный UUID -->
+        <key>PayloadIdentifier</key>
+        <string>com.yourdomain.udidprofile</string>
+        <key>PayloadDescription</key>
+        <string>Collects UDID and redirects to a page displaying it</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
+    </dict>
+</plist>
