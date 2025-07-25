@@ -6,7 +6,7 @@
     <array>
         <dict>
             <key>PayloadType</key>
-            <string>Profile Service</string>
+            <string>DeviceInfo</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
