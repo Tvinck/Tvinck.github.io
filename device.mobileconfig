@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <array>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+        <dict>
+            <key>PayloadContent</key>
             <dict>
-                <key>PayloadType</key>
-                <string>Profile Service</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
-                <key>PayloadIdentifier</key>
-                <string>com.example.getudid</string>
-                <key>PayloadUUID</key>
-                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string> <!-- Уникальный UUID -->
-                <key>PayloadDisplayName</key>
-                <string>Device Information Service</string>
-                <key>PayloadDescription</key>
-                <string>Получение информации устройства</string>
-                <key>PayloadOrganization</key>
-                <string>Example Organization</string>
                 <key>URL</key>
                 <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
                 <key>DeviceAttributes</key>
@@ -27,16 +12,19 @@
                     <string>PRODUCT</string>
                 </array>
             </dict>
-        </array>
-        <key>PayloadType</key>
-        <string>Configuration</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadIdentifier</key>
-        <string>com.example.configurationprofile</string>
-        <key>PayloadUUID</key>
-        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9E</string> <!-- Уникальный UUID для основного блока -->
-        <key>PayloadDisplayName</key>
-        <string>Device Information Configuration</string>
-    </dict>
-</plist>
+            <key>PayloadOrganization</key>
+            <string>iDeploy</string>
+            <key>PayloadDisplayName</key>
+            <string>Get UDID</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadUUID</key>
+            <string>26c053b9-8f62-44b6-b243-c3127cbaf412</string>
+            <key>PayloadIdentifier</key>
+            <string>org.ideploy.profile-service</string>
+            <key>PayloadDescription</key>
+            <string>Obtains UDID of your device and sends it back to Telegram</string>
+            <key>PayloadType</key>
+            <string>Profile Service</string>
+        </dict>
+    </plist>
