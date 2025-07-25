@@ -1,32 +1,42 @@
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-        <dict>
-            <key>PayloadContent</key>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
             <dict>
+                <key>PayloadType</key>
+                <string>Profile Service</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.example.getUDID</string>
+                <key>PayloadUUID</key>
+                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF993</string>
+                <key>PayloadDisplayName</key>
+                <string>Device Information Service</string>
                 <key>URL</key>
-                <string>http://iphone-udid.azurewebsites.net/api/xml</string>
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
-                    <string>IMEI</string>
-                    <string>ICCID</string>
-                    <string>VERSION</string>
                     <string>PRODUCT</string>
                 </array>
             </dict>
-            <key>PayloadOrganization</key>
-            <string>Corp Apps</string>
-            <key>PayloadDisplayName</key>
-            <string>CorpApps</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadUUID</key>
-            <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
-            <key>PayloadIdentifier</key>
-            <string>com.CorpApps.profile-service</string>
-            <key>PayloadDescription</key>
-            <string>This temporary profile will be used to find and display your current device's UDID.</string>
-            <key>PayloadType</key>
-            <string>Profile Service</string>
-        </dict>
+        </array>
+        <key>PayloadOrganization</key>
+        <string>Your Organization</string>
+        <key>PayloadDescription</key>
+        <string>This profile is used to retrieve device information such as UDID.</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.example.configurationprofile</string>
+        <key>PayloadUUID</key>
+        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9F</string>
+        <key>PayloadDisplayName</key>
+        <string>Device Information Configuration</string>
+    </dict>
+</plist>
