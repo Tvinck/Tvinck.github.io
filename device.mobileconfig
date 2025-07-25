@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>PayloadContent</key>
     <dict>
-        <key>URL</key>
-        <string>https://ggsel.net/</string>
-    <key>DeviceAttributes</key>
-    <array>
-        <string>UDID</string>
-        <string>DEVICE_NAME</string>
-        <string>VERSION</string>
-        <string>PRODUCT</string>
-        <string>MAC_ADDRESS_EN0</string>
-        <string>IMEI</string>
-        <string>ICCID</string>
-    </array>
-</dict>
-<key>PayloadOrganization</key>
-<string>The App Box</string>
-<key>PayloadDisplayName</key>
-<string>Device Information (UDID)</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-<key>PayloadUUID</key>
-<string>BDD0F593-8B98-55FF-A0A4-4B98E30CE451</string>
-<key>PayloadIdentifier</key>
-<string>io.com.theappbggggxio.getUDID</string>
-<key>PayloadDescription</key>
-<string>Профиль для определения UDID вашего устройства</string>
-<key>PayloadType</key>
-<string>Profile Service</string>
-</dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadType</key>
+                <string>Profile Service</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.example.profile-service</string>
+                <key>PayloadUUID</key>
+                <string>UNIQUE-UUID-HERE</string>
+                <key>PayloadDisplayName</key>
+                <string>Get Device Info</string>
+                <key>URL</key>
+                <string>https://bazzarproject.online/process_data.php</string> <!-- Используйте свой URL -->
+                <key>DeviceAttributes</key>
+                <array>
+                    <string>UDID</string>
+                </array>
+            </dict>
+        </array>
+        <key>PayloadOrganization</key>
+        <string>Your Organization</string>
+        <key>PayloadDescription</key>
+        <string>This profile is used to retrieve information about your device.</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+    </dict>
 </plist>
