@@ -5,7 +5,7 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>https://b97cfc26-285a-45fb-88dd-fe117f7b91ea-00-1ognasevdxwx5.riker.replit.dev/</string> <!-- URL вашего сайта -->
+            <string>https://b97cfc26-285a-45fb-88dd-fe117f7b91ea-00-1ognasevdxwx5.riker.replit.dev/</string>
             <key>DeviceAttributes</key>
             <array>
                 <string>UDID</string>
@@ -19,7 +19,7 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
-        <string>UNIQUE-UUID-HERE</string>
+        <string>3c602deb-cbad-4fc4-bcfb-71a0a6c5222e</string>
         <key>PayloadIdentifier</key>
         <string>io.com.theappbox.getUDID</string>
         <key>PayloadDescription</key>
