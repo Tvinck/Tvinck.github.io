@@ -9,12 +9,6 @@
     <key>DeviceAttributes</key>
     <array>
         <string>UDID</string>
-        <string>DEVICE_NAME</string>
-        <string>VERSION</string>
-        <string>PRODUCT</string>
-        <string>MAC_ADDRESS_EN0</string>
-        <string>IMEI</string>
-        <string>ICCID</string>
     </array>
 </dict>
 <key>PayloadOrganization</key>
