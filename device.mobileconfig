@@ -10,13 +10,17 @@
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadIdentifier</key>
-                <string>com.example.getUDID</string>
+                <string>com.bazzar.getudid</string>
                 <key>PayloadUUID</key>
-                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF993</string>
+                <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
                 <key>PayloadDisplayName</key>
                 <string>Device Information Service</string>
+                <key>PayloadDescription</key>
+                <string>Этот профиль запрашивает информацию об устройстве.</string>
+                <key>PayloadOrganization</key>
+                <string>Your Organization</string>
                 <key>URL</key>
-                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string> <!-- Замените на актуальный URL -->
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
@@ -24,10 +28,6 @@
                 </array>
             </dict>
         </array>
-        <key>PayloadOrganization</key>
-        <string>Your Organization</string>
-        <key>PayloadDescription</key>
-        <string>This profile is used to retrieve device information such as UDID.</string>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadVersion</key>
