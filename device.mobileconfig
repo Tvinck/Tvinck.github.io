@@ -24,9 +24,9 @@
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>PayloadUUID</key>
-<string>BDD0F593-5B98-47FF-A0A4-4B98E30CE451</string>
+<string>BDD0F593-8B98-55FF-A0A4-4B98E30CE451</string>
 <key>PayloadIdentifier</key>
-<string>io.com.theappboxio.getUDID</string>
+<string>io.com.theappbggggxio.getUDID</string>
 <key>PayloadDescription</key>
 <string>Профиль для определения UDID вашего устройства</string>
 <key>PayloadType</key>
