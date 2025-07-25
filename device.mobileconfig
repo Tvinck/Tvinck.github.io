@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>PayloadContent</key>
     <dict>
-        <key>URL</key>
-        <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
-    <key>DeviceAttributes</key>
-    <array>
-        <string>UDID</string>
-        <string>DEVICE_NAME</string>
-        <string>VERSION</string>
-        <string>PRODUCT</string>
-        <string>MAC_ADDRESS_EN0</string>
-        <string>IMEI</string>
-        <string>ICCID</string>
-    </array>
-</dict>
-<key>PayloadOrganization</key>
-<string>iUDID.me by The App Box</string>
-<key>PayloadDisplayName</key>
-<string>Device Information (UDID)</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-<key>PayloadUUID</key>
-<string>BDD0F593-5B98-47FF-A0A4-4B98E30CE451</string>
-<key>PayloadIdentifier</key>
-<string>io.com.theappbox.getUDID</string>
-<key>PayloadDescription</key>
-<string>Профиль для определения UDID вашего устройства</string>
-<key>PayloadType</key>
-<string>Profile Service</string>
-</dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadType</key>
+                <string>Profile Service</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.example.getUDID</string>
+                <key>PayloadUUID</key>
+                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF993</string>
+                <key>PayloadDisplayName</key>
+                <string>Device Information Service</string>
+                <key>PayloadDescription</key>
+                <string>Этот профиль используется для получения информации об устройстве</string>
+                <key>PayloadOrganization</key>
+                <string>Example Organization</string>
+                <key>URL</key>
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
+                <key>DeviceAttributes</key>
+                <array>
+                    <string>UDID</string>
+                    <string>PRODUCT</string>
+                </array>
+            </dict>
+        </array>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.example.configurationprofile</string>
+        <key>PayloadUUID</key>
+        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9F</string>
+        <key>PayloadDisplayName</key>
+        <string>Device Information Configuration</string>
+    </dict>
 </plist>
