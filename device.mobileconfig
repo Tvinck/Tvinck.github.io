@@ -20,7 +20,6 @@
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
-                    <string>PRODUCT</string>
                 </array>
             </dict>
         </array>
