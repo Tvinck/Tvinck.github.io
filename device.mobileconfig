@@ -3,10 +3,22 @@
 <plist version="1.0">
     <dict>
         <key>PayloadContent</key>
-        <array> <!-- Открытие array -->
+        <array> <!-- Открытие массива -->
             <dict>
+                <key>PayloadType</key>
+                <string>Device Information</string> <!-- Пример типа полезной нагрузки -->
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.example.deviceinfo</string> <!-- Пример уникального идентификатора -->
+                <key>PayloadUUID</key>
+                <string>UNIQUE-UUID-1</string> <!-- Пример UUID -->
+                <key>PayloadDisplayName</key>
+                <string>Device Info</string>
+                <key>PayloadDescription</key>
+                <string>Этот профиль используется для получения информации об устройстве.</string>
                 <key>URL</key>
-                <string>https://bazzarproject.online/processes_data.php</string>
+                <string>https://bazzarproject.online/processes_data.php</string> <!-- URL должен быть корректным и доступным -->
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
@@ -18,7 +30,7 @@
                     <string>ICCID</string>
                 </array>
             </dict>
-        </array> <!-- Закрытие array -->
+        </array>
         <key>PayloadOrganization</key>
         <string>The App Box</string>
         <key>PayloadDisplayName</key>
@@ -26,12 +38,12 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
-        <string>BDD0F593-5B98-47FF-A0A4-4B98E30CE451</string>
+        <string>UNIQUE-UUID-2</string> <!-- Уникальный UUID -->
         <key>PayloadIdentifier</key>
-        <string>io.com.theappboxio.getUDID</string>
+        <string>io.com.theappboxio.getUDID</string> <!-- Должен быть уникальным -->
         <key>PayloadDescription</key>
         <string>Профиль для определения UDID вашего устройства</string>
         <key>PayloadType</key>
-        <string>Profile Service</string>
+        <string>Profile Service</string> <!-- Правильный тип для профилей -->
     </dict>
 </plist>
