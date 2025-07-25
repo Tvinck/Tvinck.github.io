@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>PayloadContent</key>
     <dict>
-        <key>URL</key>
-        <string>https://b97cfc26-285a-45fb-88dd-fe117f7b91ea-00-1ognasevdxwx5.riker.replit.dev</string> <!-- Ваш серверный URL -->
-        <key>DeviceAttributes</key>
-        <array>
-            <string>UDID</string>
-            <string>DEVICE_NAME</string>
-            <string>VERSION</string>
-            <string>PRODUCT</string>
-        </array>
+        <key>PayloadContent</key>
+        <dict>
+            <key>URL</key>
+            <string>https://b97cfc26-285a-45fb-88dd-fe117f7b91ea-00-1ognasevdxwx5.riker.replit.dev/</string> <!-- URL вашего сайта -->
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>PRODUCT</string>
+            </array>
+        </dict>
+        <key>PayloadOrganization</key>
+        <string>BAZZAR PROJECT1.6</string>
+        <key>PayloadDisplayName</key>
+        <string>Device information (UDID)</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>UNIQUE-UUID-HERE</string>
+        <key>PayloadIdentifier</key>
+        <string>io.com.theappbox.getUDID</string>
+        <key>PayloadDescription</key>
+        <string>Профиль для определения UDID вашего устройства</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
     </dict>
-    <key>PayloadOrganization</key>
-    <string>Your Organization</string>
-    <key>PayloadDisplayName</key>
-    <string>Device Information (UDID)</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-    <key>PayloadUUID</key>
-    <string>UNIQUE-UUID-HERE</string> <!-- Уникальный UUID -->
-    <key>PayloadIdentifier</key>
-    <string>com.yourdomain.getudid</string>
-    <key>PayloadDescription</key>
-    <string>Profile to obtain UDID of your device</string>
-    <key>PayloadType</key>
-    <string>Profile Service</string>
-</dict>
 </plist>
