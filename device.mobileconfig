@@ -3,23 +3,25 @@
 <plist version="1.0">
     <dict>
         <key>PayloadContent</key>
-        <dict>
-            <key>URL</key>
-            <string>https://45efff6f195b.hosting.myjino.ru/index.php/</string>
-            <key>DeviceAttributes</key>
-            <array>
-                <string>UDID</string>
-                <string>PRODUCT</string>
-            </array>
-        </dict>
+        <array>
+            <dict>
+                <key>URL</key>
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
+                <key>DeviceAttributes</key>
+                <array>
+                    <string>UDID</string>
+                    <string>PRODUCT</string>
+                </array>
+            </dict>
+        </array>
         <key>PayloadOrganization</key>
         <string>BAZZAR PROJECT1.6</string>
         <key>PayloadDisplayName</key>
-        <string>Device information (UDID)</string>
+        <string>Device Information (UDID)</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
-        <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string> <!-- Пример уникального UUID -->
+        <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string> <!-- Убедитесь, что это уникальное значение -->
         <key>PayloadIdentifier</key>
         <string>io.com.thebazzarproject.getUDID</string>
         <key>PayloadDescription</key>
