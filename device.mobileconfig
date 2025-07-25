@@ -6,24 +6,25 @@
         <array>
             <dict>
                 <key>PayloadType</key>
-                <string>Profile Service</string>
+                <string>Device Information</string> <!-- Обычно это "Device Information", чтобы извлечь данные -->
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadIdentifier</key>
-                <string>com.CorpApps.profile-service</string>
+                <string>com.example.getDeviceInfo</string>
                 <key>PayloadUUID</key>
-                <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Уникальный UUID -->
+                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF993</string> <!-- Уникальный UUID -->
                 <key>PayloadDisplayName</key>
-                <string>CorpApps</string>
+                <string>Retrieve Device Information</string>
                 <key>PayloadDescription</key>
-                <string>This temporary profile will be used to find and display your current device's UDID.</string>
+                <string>This profile retrieves the device information such as UDID.</string>
                 <key>PayloadOrganization</key>
-                <string>Corp Apps</string>
+                <string>Your Organization</string>
                 <key>URL</key>
-                <string>https://45efff6f195b.hosting.myjino.ru/</string>
+                <string>https://yourserver.example.com/index.php</string> <!-- Убедитесь, что это HTTPS и URL действующий -->
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
+                    <string>IMEI</string>
                 </array>
             </dict>
         </array>
@@ -32,10 +33,10 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadIdentifier</key>
-        <string>com.CorpApps.configurationprofile</string> <!-- Уникальный идентификатор -->
+        <string>com.example.profileConfig</string>
         <key>PayloadUUID</key>
-        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9F</string> <!-- Уникальный UUID -->
+        <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF993</string> <!-- Уникальный UUID -->
         <key>PayloadDisplayName</key>
-        <string>CorpApps Config</string>
+        <string>Device Information Configuration</string>
     </dict>
 </plist>
