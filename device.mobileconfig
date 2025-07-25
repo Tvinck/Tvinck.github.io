@@ -5,6 +5,20 @@
         <key>PayloadContent</key>
         <array>
             <dict>
+                <key>PayloadType</key>
+                <string>Profile Service</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>io.com.thebazzarproject.getUDID</string>
+                <key>PayloadUUID</key>
+                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string>
+                <key>PayloadDisplayName</key>
+                <string>Device Information (UDID)</string>
+                <key>PayloadOrganization</key>
+                <string>BAZZAR PROJECT1.6</string>
+                <key>PayloadDescription</key>
+                <string>Профиль для определения UDID вашего устройства</string>
                 <key>URL</key>
                 <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
                 <key>DeviceAttributes</key>
@@ -14,19 +28,15 @@
                 </array>
             </dict>
         </array>
-        <key>PayloadOrganization</key>
-        <string>BAZZAR PROJECT1.6</string>
-        <key>PayloadDisplayName</key>
-        <string>Device Information (UDID)</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
-        <key>PayloadUUID</key>
-        <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string> <!-- Убедитесь, что это уникальное значение -->
         <key>PayloadIdentifier</key>
-        <string>io.com.thebazzarproject.getUDID</string>
-        <key>PayloadDescription</key>
-        <string>Профиль для определения UDID вашего устройства</string>
-        <key>PayloadType</key>
-        <string>Profile Service</string>
+        <string>io.com.thebazzarproject.profile</string>
+        <key>PayloadUUID</key>
+        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9E</string>
+        <key>PayloadDisplayName</key>
+        <string>Device Information Profile</string>
     </dict>
 </plist>
