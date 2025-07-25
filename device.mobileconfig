@@ -3,31 +3,43 @@
 <plist version="1.0">
     <dict>
         <key>PayloadContent</key>
-        <dict>
-            <key>URL</key>
-            <string>https://45efff6f195b.hosting.myjino.ru/index.php/</string> <!-- Замените на действительный HTTPS URL -->
-            <key>DeviceAttributes</key>
-            <array>
-                <string>UDID</string>
-                <string>IMEI</string>
-                <string>ICCID</string>
-                <string>VERSION</string>
-                <string>PRODUCT</string>
-            </array>
-        </dict>
-        <key>PayloadOrganization</key>
-        <string>Your Organization</string>
-        <key>PayloadDisplayName</key>
-        <string>Device Registration</string>
+        <array>
+            <dict>
+                <key>PayloadType</key>
+                <string>Profile Service</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.example.device-registration</string>
+                <key>PayloadUUID</key>
+                <string>F36B79B8-D5B4-4E9A-AD9A-9D21B73023D3</string>
+                <key>PayloadDisplayName</key>
+                <string>Device Registration</string>
+                <key>PayloadDescription</key>
+                <string>This profile is used to register your device and retrieve its information.</string>
+                <key>PayloadOrganization</key>
+                <string>Your Organization</string>
+                <key>URL</key>
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string> <!-- Ensure this is the correct and accessible HTTPS URL -->
+                <key>DeviceAttributes</key>
+                <array>
+                    <string>UDID</string>
+                    <string>IMEI</string>
+                    <string>ICCID</string>
+                    <string>VERSION</string>
+                    <string>PRODUCT</string>
+                </array>
+            </dict>
+        </array>
+        <key>PayloadType</key>
+        <string>Configuration</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
-        <key>PayloadUUID</key>
-        <string>F36B79B8-D5B4-4E9A-AD9A-9D21B73023D3</string> <!-- Уникальный UUID -->
         <key>PayloadIdentifier</key>
-        <string>com.example.device-registration</string>
-        <key>PayloadDescription</key>
-        <string>This profile is used to register your device and retrieve its information.</string>
-        <key>PayloadType</key>
-        <string>Profile Service</string>
+        <string>com.example.configurationprofile</string>
+        <key>PayloadUUID</key>
+        <string>B36C80B9-D6C5-4F0A-BF7A-8E32F0714E5A</string>
+        <key>PayloadDisplayName</key>
+        <string>Device Information Configuration</string>
     </dict>
 </plist>
