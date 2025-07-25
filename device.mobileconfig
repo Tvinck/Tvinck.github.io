@@ -13,7 +13,7 @@
             </array>
         </dict>
         <key>PayloadOrganization</key>
-        <string>BAZZAR PROJECT1</string>
+        <string>BAZZAR PROJECT1.0</string>
         <key>PayloadDisplayName</key>
         <string>Device information (UDID)</string>
         <key>PayloadVersion</key>
