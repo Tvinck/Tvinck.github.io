@@ -7,8 +7,6 @@
             <dict>
                 <key>PayloadType</key>
                 <string>Profile Service</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
                 <key>PayloadIdentifier</key>
                 <string>com.example.profile-service</string>
                 <key>PayloadUUID</key>
@@ -20,6 +18,8 @@
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
                 </array>
             </dict>
         </array>
