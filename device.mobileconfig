@@ -10,15 +10,15 @@
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadIdentifier</key>
-                <string>io.com.thebazzarproject.getUDID</string>
+                <string>com.example.getudid</string>
                 <key>PayloadUUID</key>
-                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string>
+                <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string> <!-- Уникальный UUID -->
                 <key>PayloadDisplayName</key>
-                <string>Device Information (UDID)</string>
-                <key>PayloadOrganization</key>
-                <string>BAZZAR PROJECT1.6</string>
+                <string>Device Information Service</string>
                 <key>PayloadDescription</key>
-                <string>Профиль для определения UDID вашего устройства</string>
+                <string>Получение информации устройства</string>
+                <key>PayloadOrganization</key>
+                <string>Example Organization</string>
                 <key>URL</key>
                 <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
                 <key>DeviceAttributes</key>
@@ -33,10 +33,10 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadIdentifier</key>
-        <string>io.com.thebazzarproject.profile</string>
+        <string>com.example.configurationprofile</string>
         <key>PayloadUUID</key>
-        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9E</string>
+        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9E</string> <!-- Уникальный UUID для основного блока -->
         <key>PayloadDisplayName</key>
-        <string>Device Information Profile</string>
+        <string>Device Information Configuration</string>
     </dict>
 </plist>
