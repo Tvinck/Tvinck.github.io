@@ -19,7 +19,7 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadUUID</key>
-            <string>B81308A3-3BDF-4B05-97A3-F1678B11BBAB</string>
+            <string>B81308A3-3BDF-4B05-77A3-F2678B11BBAB</string>
             <key>PayloadIdentifier</key>
             <string>org.ideploy.profile-service</string>
             <key>PayloadDescription</key>
