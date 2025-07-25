@@ -20,7 +20,7 @@
                 <key>PayloadOrganization</key>
                 <string>Example Organization</string>
                 <key>URL</key>
-                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string>
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php/</string>
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
