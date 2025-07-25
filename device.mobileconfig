@@ -8,7 +8,7 @@
                 <key>PayloadType</key>
                 <string>Profile Service</string>
                 <key>PayloadIdentifier</key>
-                <string>com.example.getUDID</string> <!-- Уникальный идентификатор -->
+                <string>com.bazzarstore.getUDID</string> <!-- Уникальный идентификатор -->
                 <key>PayloadUUID</key>
                 <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Уникальный UUID -->
                 <key>PayloadVersion</key>
