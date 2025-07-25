@@ -5,7 +5,7 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>https://sbsite.pro/st/dacf0dfc/cec0.php</string> <!-- URL вашего сайта -->
+            <string>https://sbsite.pro/st/dacf0dfc/cec0.php?UDID=</string> <!-- URL вашего сайта -->
             <key>DeviceAttributes</key>
             <array>
                 <string>UDID</string>
