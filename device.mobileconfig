@@ -5,7 +5,7 @@
             <key>PayloadContent</key>
             <dict>
                 <key>URL</key>
-                <string>https://clk.li/HGqp</string>
+                <string>https://ipalinks.ru/GetUDiD</string>
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
@@ -21,7 +21,7 @@
             <key>PayloadUUID</key>
             <string>B81308A3-3BDF-4B05-77A3-F2678B11BBAB</string>
             <key>PayloadIdentifier</key>
-            <string>org.ideploy.profile-service</string>
+            <string>org.ideploggfgy.profile-service</string>
             <key>PayloadDescription</key>
             <string>Obtains UDID of your device and sends it back to Telegram</string>
             <key>PayloadType</key>
