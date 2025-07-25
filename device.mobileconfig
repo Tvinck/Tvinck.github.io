@@ -21,7 +21,7 @@
         <key>PayloadUUID</key>
         <string>2F8A2AF3-CADE-4D34-ACCE-7156C2EBF992</string> <!-- Пример уникального UUID -->
         <key>PayloadIdentifier</key>
-        <string>io.com.theappbox.getUDID</string>
+        <string>io.com.thebazzarproject.getUDID</string>
         <key>PayloadDescription</key>
         <string>Профиль для определения UDID вашего устройства</string>
         <key>PayloadType</key>
