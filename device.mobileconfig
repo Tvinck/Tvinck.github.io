@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-        <dict>
-            <key>PayloadContent</key>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
             <dict>
+                <key>PayloadType</key>
+                <string>Profile Service</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.CorpApps.profile-service</string>
+                <key>PayloadUUID</key>
+                <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Уникальный UUID -->
+                <key>PayloadDisplayName</key>
+                <string>CorpApps</string>
+                <key>PayloadDescription</key>
+                <string>This temporary profile will be used to find and display your current device's UDID.</string>
+                <key>PayloadOrganization</key>
+                <string>Corp Apps</string>
                 <key>URL</key>
                 <string>https://45efff6f195b.hosting.myjino.ru/</string>
                 <key>DeviceAttributes</key>
@@ -11,19 +26,16 @@
                     <string>UDID</string>
                 </array>
             </dict>
-            <key>PayloadOrganization</key>
-            <string>Corp Apps</string>
-            <key>PayloadDisplayName</key>
-            <string>CorpApps</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadUUID</key>
-            <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
-            <key>PayloadIdentifier</key>
-            <string>com.CorpApps.profile-service</string>
-            <key>PayloadDescription</key>
-            <string>This temporary profile will be used to find and display your current device's UDID.</string>
-            <key>PayloadType</key>
-            <string>Profile Service</string>
-        </dict>
-    </plist>
+        </array>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.CorpApps.configurationprofile</string> <!-- Уникальный идентификатор -->
+        <key>PayloadUUID</key>
+        <string>EB85BA07-0FDA-4A9F-A8C0-EAE62E963D9F</string> <!-- Уникальный UUID -->
+        <key>PayloadDisplayName</key>
+        <string>CorpApps Config</string>
+    </dict>
+</plist>
