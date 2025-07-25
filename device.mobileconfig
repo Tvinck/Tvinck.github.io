@@ -15,11 +15,11 @@
         <key>PayloadOrganization</key>
         <string>BAZZAR PROJECT1.6</string>
         <key>PayloadDisplayName</key>
-        <string>Device information (UDID)</string>
+        <string>Device Information (UDID)</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
-        <string>3c602deb-cbad-4fc4-bcfb-71a0a6c5222e</string>
+        <string>64C43615-EEFA-4F05-B708-4147770781A1</string> <!-- Генерируйте уникальный UUID для каждого профиля -->
         <key>PayloadIdentifier</key>
         <string>io.com.theappbox.getUDID</string>
         <key>PayloadDescription</key>
