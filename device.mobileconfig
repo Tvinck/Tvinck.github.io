@@ -5,7 +5,7 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>https://b97cfc26-285a-45fb-88dd-fe117f7b91ea-00-1ognasevdxwx5.riker.replit.dev/</string> <!-- URL вашего сайта -->
+            <string>https://b97cfc26-285a-45fb-88dd-fe117f7b91ea-00-1ognasevdxwx5.riker.replit.dev/process_device_data/</string> <!-- URL вашего сайта -->
             <key>DeviceAttributes</key>
             <array>
                 <string>UDID</string>
