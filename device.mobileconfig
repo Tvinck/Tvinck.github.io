@@ -20,7 +20,7 @@
                 <key>PayloadOrganization</key>
                 <string>Your Organization</string>
                 <key>URL</key>
-                <string>https://45efff6f195b.hosting.myjino.ru/index.php</string> <!-- Замените на актуальный URL -->
+                <string>https://45efff6f195b.hosting.myjino.ru/index.php/</string> <!-- Замените на актуальный URL -->
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
