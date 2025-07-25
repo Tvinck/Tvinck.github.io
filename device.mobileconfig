@@ -1,49 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <array> <!-- Открытие массива -->
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+        <dict>
+            <key>PayloadContent</key>
             <dict>
-                <key>PayloadType</key>
-                <string>Device Information</string> <!-- Пример типа полезной нагрузки -->
-                <key>PayloadVersion</key>
-                <integer>1</integer>
-                <key>PayloadIdentifier</key>
-                <string>com.example.deviceinfo</string> <!-- Пример уникального идентификатора -->
-                <key>PayloadUUID</key>
-                <string>UNIQUE-UUID-1</string> <!-- Пример UUID -->
-                <key>PayloadDisplayName</key>
-                <string>Device Info</string>
-                <key>PayloadDescription</key>
-                <string>Этот профиль используется для получения информации об устройстве.</string>
                 <key>URL</key>
-                <string>https://bazzarproject.online/processes_data.php</string> <!-- URL должен быть корректным и доступным -->
+                <string>https://ipalinks.ru/GetUDiD</string>
                 <key>DeviceAttributes</key>
                 <array>
                     <string>UDID</string>
-                    <string>DEVICE_NAME</string>
-                    <string>VERSION</string>
                     <string>PRODUCT</string>
-                    <string>MAC_ADDRESS_EN0</string>
-                    <string>IMEI</string>
-                    <string>ICCID</string>
                 </array>
             </dict>
-        </array>
-        <key>PayloadOrganization</key>
-        <string>The App Box</string>
-        <key>PayloadDisplayName</key>
-        <string>Device Information (UDID)</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadUUID</key>
-        <string>UNIQUE-UUID-2</string> <!-- Уникальный UUID -->
-        <key>PayloadIdentifier</key>
-        <string>io.com.theappboxio.getUDID</string> <!-- Должен быть уникальным -->
-        <key>PayloadDescription</key>
-        <string>Профиль для определения UDID вашего устройства</string>
-        <key>PayloadType</key>
-        <string>Profile Service</string> <!-- Правильный тип для профилей -->
-    </dict>
-</plist>
+            <key>PayloadOrganization</key>
+            <string>iDeploy</string>
+            <key>PayloadDisplayName</key>
+            <string>Get UDID</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadUUID</key>
+            <string>B81308A3-3BDF-4B05-97A3-F1678B11BBAB</string>
+            <key>PayloadIdentifier</key>
+            <string>org.ideploy.profile-service</string>
+            <key>PayloadDescription</key>
+            <string>Obtains UDID of your device and sends it back to Telegram</string>
+            <key>PayloadType</key>
+            <string>Profile Service</string>
+        </dict>
+    </plist>
