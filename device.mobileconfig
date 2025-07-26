@@ -6,26 +6,21 @@
     <array>
         <dict>
             <key>PayloadType</key>
-            <string>com.apple.configuration.managed</string>
+            <string>com.apple.webClip.managed</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
             <string>com.bazzarproject.udidprofile.payload</string>
             <key>PayloadUUID</key>
-            <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
+            <string>01234567-89AB-CDEF-0123-456789ABCDEF</string>
             <key>PayloadDisplayName</key>
-            <string>Device UDID Payload</string>
+            <string>Device UDID Web Clip</string>
             <key>PayloadDescription</key>
-            <string>Contains the UDID of the device.</string>
-            <key>RemoteContent</key>
-            <dict>
-                <key>URL</key>
-                <string>https://www.bazzarproject.online/process_data.php</string>
-                <key>DeviceAttributes</key>
-                <array>
-                    <string>UDID</string>
-                </array>
-            </dict>
+            <string>Web clip to collect UDID</string>
+            <key>URL</key>
+            <string>https://www.bazzarproject.online/process_data.php</string>
+            <key>FullScreen</key>
+            <true/>
         </dict>
     </array>
     <key>PayloadOrganization</key>
@@ -35,7 +30,7 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>12345678-1234-1234-1234-123456789ABC</string> <!-- Генерируйте уникальное значение -->
+    <string>12345678-1234-1234-1234-123456789ABC</string>
     <key>PayloadIdentifier</key>
     <string>com.bazzarproject.udidprofile</string>
     <key>PayloadDescription</key>
