@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>PayloadContent</key>
@@ -17,7 +18,7 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
+    <string>Please_Generate_A_Unique_UUID</string> <!-- Генерируйте уникальное значение -->
     <key>PayloadIdentifier</key>
     <string>com.bazzarproject.udidprofile</string>
     <key>PayloadDescription</key>
