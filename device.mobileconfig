@@ -12,21 +12,18 @@
             <string>DEVICE_NAME</string>
             <string>VERSION</string>
             <string>PRODUCT</string>
-            <string>MAC_ADDRESS_EN0</string>
-            <string>IMEI</string>
-            <string>ICCID</string>
         </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>Your Organization000</string>
+    <string>BAAZZZZ</string>
     <key>PayloadDisplayName</key>
     <string>Device Information</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
+    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Убедитесь, что это уникальный идентификатор -->
     <key>PayloadIdentifier</key>
-    <string>com.bazzarproject.udidprofile</string>
+    <string>com.bazzarproject.udidprofile</string> <!-- Убедитесь, что это уникальный идентификатор -->
     <key>PayloadDescription</key>
     <string>Profile for device UDID.</string>
     <key>PayloadType</key>
