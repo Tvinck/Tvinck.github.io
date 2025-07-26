@@ -24,7 +24,7 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>YOUR_UNIQUE_UUID_HERE</string>
+    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
     <key>PayloadIdentifier</key>
     <string>io.your.identifier</string>
     <key>PayloadDescription</key>
