@@ -18,17 +18,17 @@
         </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>Your Organization</string>
+    <string>The App Box</string>
     <key>PayloadDisplayName</key>
     <string>Device Information (UDID)</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>YOUR-UNIQUE-UUID-HERE</string>
+    <string>YOUR-UNIQUE-UUID-HERE</string> <!-- Замените на уникальный UUID -->
     <key>PayloadIdentifier</key>
-    <string>com.yourdomain.getUDID</string>
+    <string>io.com.theappboxio.getUDID</string>
     <key>PayloadDescription</key>
-    <string>Описание вашего профиля</string>
+    <string>Профиль для определения UDID вашего устройства</string>
     <key>PayloadType</key>
     <string>Profile Service</string>
 </dict>
