@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-        <dict>
-            <key>PayloadContent</key>
-            <dict>
-                <key>URL</key>
-                <string>https://www.bazzarproject.online/process_data.php/</string>
-                <key>DeviceAttributes</key>
-                <array>
-                    <string>UDID</string>
-                    <string>PRODUCT</string>
-                </array>
-            </dict>
-            <key>PayloadOrganization</key>
-            <string>iDeploy</string>
-            <key>PayloadDisplayName</key>
-            <string>Get UDID</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadUUID</key>
-            <string>B81308A3-3BDF-4B05-97A3-F1678B11BBAB</string>
-            <key>PayloadIdentifier</key>
-            <string>org.ideploy.profile-service</string>
-            <key>PayloadDescription</key>
-            <string>Obtains UDID of your device and sends it back to Telegram</string>
-            <key>PayloadType</key>
-            <string>Profile Service</string>
-        </dict>
-    </plist>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>URL</key>
+        <string>https://yourdomain.com/process_data.php</string>
+        <key>DeviceAttributes</key>
+        <array>
+            <string>UDID</string>
+            <string>DEVICE_NAME</string>
+            <string>VERSION</string>
+            <string>PRODUCT</string>
+            <string>MAC_ADDRESS_EN0</string>
+            <string>IMEI</string>
+            <string>ICCID</string>
+        </array>
+    </dict>
+    <key>PayloadOrganization</key>
+    <string>Your Organization</string>
+    <key>PayloadDisplayName</key>
+    <string>Device Information (UDID)</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>YOUR-UNIQUE-UUID-HERE</string>
+    <key>PayloadIdentifier</key>
+    <string>com.yourdomain.getUDID</string>
+    <key>PayloadDescription</key>
+    <string>Описание вашего профиля</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+</dict>
+</plist>
