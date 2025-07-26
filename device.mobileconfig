@@ -6,26 +6,19 @@
     <dict>
         <key>URL</key>
         <string>https://www.bazzarproject.online/process_data.php</string>
-        <key>DeviceAttributes</key>
-        <array>
-            <string>UDID</string>
-            <string>DEVICE_NAME</string>
-            <string>VERSION</string>
-            <string>PRODUCT</string>
-        </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>BAZZAR PROJECT</string>
+    <string>Testing Organization</string>
     <key>PayloadDisplayName</key>
-    <string>Device Information</string>
+    <string>Test Profile</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>3A59B4E6-FD23-48C2-AF35-7B35D3493EB1</string> <!-- Убедитесь, что это уникальный идентификатор -->
+    <string>79B27478-9F43-466A-97DD-D95BBA4A44BC</string>
     <key>PayloadIdentifier</key>
-    <string>com.bazzarproject.udidprofile</string> <!-- Убедитесь, что это уникальный идентификатор -->
+    <string>com.bazzarproject.testprofile</string>
     <key>PayloadDescription</key>
-    <string>Profile for device UDID.</string>
+    <string>Test profile for UDID logging.</string>
     <key>PayloadType</key>
     <string>Profile Service</string>
 </dict>
