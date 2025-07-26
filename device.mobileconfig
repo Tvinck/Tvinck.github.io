@@ -5,7 +5,7 @@
     <key>PayloadContent</key>
     <dict>
         <key>URL</key>
-        <string>https://www.bazzarproject.online/test_success.php/</string>
+        <string>https://www.bazzarproject.online/process_data.php/</string>
         <key>DeviceAttributes</key>
         <array>
             <string>UDID</string>
