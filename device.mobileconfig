@@ -21,7 +21,7 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Убедитесь, что это уникальный идентификатор -->
+    <string>3A59B4E6-FD23-48C2-AF35-7B35D3493EB1</string> <!-- Убедитесь, что это уникальный идентификатор -->
     <key>PayloadIdentifier</key>
     <string>com.bazzarproject.udidprofile</string> <!-- Убедитесь, что это уникальный идентификатор -->
     <key>PayloadDescription</key>
