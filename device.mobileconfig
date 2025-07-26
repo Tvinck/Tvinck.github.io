@@ -5,7 +5,7 @@
     <key>PayloadContent</key>
     <dict>
         <key>URL</key>
-        <string>https://www.bazzarproject.online/process_data.php</string>
+        <string>https://yourdomain.com/process_data.php</string>
         <key>DeviceAttributes</key>
         <array>
             <string>UDID</string>
@@ -18,17 +18,17 @@
         </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>The App Box</string>
+    <string>Your Organization</string>
     <key>PayloadDisplayName</key>
-    <string>Device Information (UDID)</string>
+    <string>Device Information</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>YOUR-UNIQUE-UUID-HERE</string> <!-- Замените на уникальный UUID -->
+    <string>YOUR_UNIQUE_UUID_HERE</string>
     <key>PayloadIdentifier</key>
-    <string>io.com.theappboxio.getUDID</string>
+    <string>io.your.identifier</string>
     <key>PayloadDescription</key>
-    <string>Профиль для определения UDID вашего устройства</string>
+    <string>Profile for device UDID.</string>
     <key>PayloadType</key>
     <string>Profile Service</string>
 </dict>
