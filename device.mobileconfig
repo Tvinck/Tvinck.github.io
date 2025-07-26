@@ -26,7 +26,7 @@
     <key>PayloadUUID</key>
     <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
     <key>PayloadIdentifier</key>
-    <string>io.your.identifier</string>
+    <string>com.bazzarproject.udidprofile</string>
     <key>PayloadDescription</key>
     <string>Profile for device UDID.</string>
     <key>PayloadType</key>
