@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>PayloadContent</key>
     <dict>
         <key>URL</key>
         <string>https://www.bazzarproject.online/process_data.php</string>
+        <key>DeviceAttributes</key>
+        <array>
+            <string>UDID</string>
+        </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>Testing Organization</string>
+    <string>Your Organization</string>
     <key>PayloadDisplayName</key>
-    <string>Test Profile</string>
+    <string>Device UDID Profile</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>79B27478-9F43-466A-97DD-D95BBA4A44BC</string>
+    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
     <key>PayloadIdentifier</key>
-    <string>com.bazzarproject.testprofile</string>
+    <string>com.bazzarproject.udidprofile</string>
     <key>PayloadDescription</key>
-    <string>Test profile for UDID logging.</string>
+    <string>Profile for device UDID.</string>
     <key>PayloadType</key>
     <string>Profile Service</string>
 </dict>
