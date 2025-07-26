@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>URL</key>
+        <string>https://www.bazzarproject.online/process_data.php</string>
+        <key>DeviceAttributes</key>
+        <array>
+            <string>UDID</string>
+        </array>
+    </dict>
+    <key>PayloadOrganization</key>
+    <string>Your Organization</string>
+    <key>PayloadDisplayName</key>
+    <string>Device UDID Profile</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
+    <key>PayloadIdentifier</key>
+    <string>com.bazzarproject.udidprofile</string>
+    <key>PayloadDescription</key>
+    <string>Profile for device UDID.</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+</dict>
+</plist>
