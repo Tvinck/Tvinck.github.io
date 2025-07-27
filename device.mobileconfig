@@ -5,24 +5,24 @@
     <key>PayloadContent</key>
     <dict>
         <key>URL</key>
-        <string>https://www.bazzarproject.online/process_data.php</string> <!-- Убедитесь, что это правильно -->
+        <string>https://www.bazzarproject.online/process_data.php</string>
         <key>DeviceAttributes</key>
         <array>
             <string>UDID</string>
         </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>Your Organization</string> <!-- Имя вашей организации или просто "Test" -->
+    <string>Your Organization</string>
     <key>PayloadDisplayName</key>
-    <string>Minimal UDID Profile</string> <!-- Имя профиля -->
+    <string>Minimal UDID Profile</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Генерация уникального UUID -->
+    <string>Unique-UUID-Here</string>
     <key>PayloadIdentifier</key>
-    <string>com.bazzarproject.minimaludidprofile</string> <!-- Уникальный идентификатор -->
+    <string>com.bazzarproject.minimaludidprofile</string>
     <key>PayloadDescription</key>
-    <string>Minimal profile for device UDID retrieval.</string>
+    <string>Profile for device UDID retrieval.</string>
     <key>PayloadType</key>
     <string>Profile Service</string>
 </dict>
