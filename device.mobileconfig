@@ -5,22 +5,26 @@
     <key>PayloadContent</key>
     <dict>
         <key>URL</key>
-        <string>https://www.bazzarproject.online/process_data.php</string>
+        <string>https://www.bazzarproject.online/process_data.php</string> <!-- Ваш хостинг для обработки запроса -->
         <key>DeviceAttributes</key>
         <array>
-            <string>UDID</string>
+            <string>UDID</string> <!-- Хочется получить только UDID -->
+            <string>IMEI</string> <!-- Не забудьте, если это необходимо -->
+            <string>ICCID</string> <!-- Не забудьте, если это необходимо -->
+            <string>VERSION</string> <!-- Версия iOS -->
+            <string>PRODUCT</string> <!-- Продукт -->
         </array>
     </dict>
     <key>PayloadOrganization</key>
-    <string>Your Organization</string>
+    <string>Your Organization</string> <!-- Укажите здесь свою организацию -->
     <key>PayloadDisplayName</key>
-    <string>Device UDID Profile</string>
+    <string>Device UDID Profile</string> <!-- Название профиля -->
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadUUID</key>
-    <string>Please_Generate_A_Unique_UUID</string> <!-- Генерируйте уникальное значение -->
+    <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string> <!-- Замените на уникальный UUID -->
     <key>PayloadIdentifier</key>
-    <string>com.bazzarproject.udidprofile</string>
+    <string>com.bazzarproject.udidprofile</string> <!-- Уникальный идентификатор -->
     <key>PayloadDescription</key>
     <string>Profile for device UDID.</string>
     <key>PayloadType</key>
