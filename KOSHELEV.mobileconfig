@@ -12,7 +12,7 @@
   <key>PayloadUUID</key>
   <string>00000000-1111-2222-3333-444444444444</string>
   <key>PayloadDisplayName</key>
-  <string>Super Lock - No Camera & Flashlight</string>
+  <string>Super Lock - No Camera  Flashlight</string>
   <key>PayloadRemovalDisallowed</key>
   <false/>
   <key>PayloadContent</key>
@@ -29,7 +29,7 @@
       <key>PayloadDisplayName</key>
       <string>Restrictions</string>
 
-      <!-- Главный запрет камеры -->
+      <!-- Запрет камеры -->
       <key>allowCamera</key>
       <false/>
 
@@ -49,7 +49,7 @@
       <key>allowFaceTime</key>
       <false/>
 
-      <!-- Запрет добавления/изменения ярлыков на экране блокировки -->
+      <!-- Запрет изменения кнопок экрана блокировки -->
       <key>allowLockScreenCustomizations</key>
       <false/>
     </dict>
