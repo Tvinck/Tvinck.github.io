@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.aggressive</string>
-  <key>PayloadUUID</key><string>8D8B6F28-6E9C-4C62-9B0C-7F8B6E1C9A21</string>
-  <key>PayloadDisplayName</key><string>No Flashlight (Aggressive)</string>
-  <key>PayloadDescription</key><string>Disables Camera (thus LED flash/flashlight), disables Control Center on lock screen, and blocks Siri/FaceTime from lock screen.</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.siriblock</string>
+  <key>PayloadUUID</key><string>1A2B3C4D-5E6F-7081-92A3-B4C5D6E7F8A9</string>
+  <key>PayloadDisplayName</key><string>No Camera / No Flashlight / No Siri</string>
+  <key>PayloadDescription</key><string>Removes camera & flashlight, disables Siri completely, blocks lock screen Control Center and FaceTime.</string>
   <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
@@ -15,25 +15,27 @@
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.restrictions</string>
-      <key>PayloadUUID</key><string>B7E4B2C9-3F5A-4D6E-9B18-3E4D0F9C1A55</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.siriblock.restrictions</string>
+      <key>PayloadUUID</key><string>ABCDEF12-3456-7890-ABCD-EF1234567890</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- КАМЕРА ВЫКЛ (гасит вспышку/фонарик везде) -->
+      <!-- КАМЕРА ВЫКЛ -->
       <key>allowCamera</key><false/>
 
-      <!-- ПУНКТ УПРАВЛЕНИЯ НА ЛОК-ЭКРАНЕ ВЫКЛ (нет быстрого фонарика) -->
+      <!-- Фонарь через Control Center (лок-экран) ВЫКЛ -->
       <key>allowControlCenterInLockScreen</key><false/>
 
-      <!-- SIRI ВЫКЛ на лок-экране (не включит фонарик голосом) -->
-      <key>allowSiriWhileLocked</key><false/>
-      <!-- (опционально можно вырубить Siri совсем) -->
+      <!-- SIRI ВЫКЛ везде -->
       <key>allowSiri</key><false/>
+      <key>allowSiriWhileLocked</key><false/>
 
-      <!-- Facetime (ещё один путь к камере/вспышке) -->
+      <!-- Блокировка SiriKit (чтобы приложения не могли вызывать команды фонарика) -->
+      <key>allowAssistant</key><false/>
+
+      <!-- FaceTime ВЫКЛ -->
       <key>allowFaceTime</key><false/>
 
-      <!-- Дополнительно: чистый лок-экран без свайпов Today/Уведомлений -->
+      <!-- Чистый лок-экран -->
       <key>allowTodayViewInLockScreen</key><false/>
       <key>allowNotificationCenterInLockScreen</key><false/>
     </dict>
