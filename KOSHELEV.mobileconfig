@@ -7,7 +7,7 @@
   <key>PayloadVersion</key><integer>1</integer>
   <key>PayloadIdentifier</key><string>com.bazzar.block.core</string>
   <key>PayloadUUID</key><string>11111111-2222-3333-4444-555555555555</string>
-  <key>PayloadDisplayName</key><string>Core Block (Camera/Video)</string>
+  <key>PayloadDisplayName</key><string>Core Block (Camera/Siri/Screen/USB)</string>
   <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
@@ -19,12 +19,23 @@
       <key>PayloadUUID</key><string>AB12CD34-EF56-7890-AB12-CD34EF567890</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- Камера полностью выкл (вспышка/фонарик в приложениях недоступны) -->
+      <!-- Камера ВЫКЛ (вспышка/фонарик недоступны в приложениях) -->
       <key>allowCamera</key><false/>
 
-      <!-- Видеосвязь выкл -->
-      <key>allowFaceTime</key><false/>
-      <key>allowVideoConferencing</key><false/>
+      <!-- Siri полностью ВЫКЛ -->
+      <key>allowSiri</key><false/>
+      <key>allowSiriWhileLocked</key><false/>
+
+      <!-- Скриншоты / запись экрана ВЫКЛ -->
+      <key>allowScreenShot</key><false/>
+
+      <!-- Убираем быстрые панели на лок-экране (нет «быстрого фонаря») -->
+      <key>allowControlCenterInLockScreen</key><false/>
+      <key>allowNotificationCenterInLockScreen</key><false/>
+      <key>allowTodayViewInLockScreen</key><false/>
+
+      <!-- Запрет USB-пэйринга с ПК (эффект «порт не видит компьютер») -->
+      <key>allowHostPairing</key><false/>
     </dict>
   </array>
 </dict>
