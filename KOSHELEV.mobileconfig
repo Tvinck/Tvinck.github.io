@@ -4,19 +4,23 @@
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.nocamera.profile</string>
-  <key>PayloadUUID</key><string>7E9C2B7E-3F7B-4D9A-8B2B-5B7F9C1A2D34</string>
-  <key>PayloadDisplayName</key><string>Disable Camera (No Flashlight)</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.lock.noCC</string>
+  <key>PayloadUUID</key><string>11111111-2222-3333-4444-555555555555</string>
+  <key>PayloadDisplayName</key><string>Disable Control Center on Lock Screen</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
   <array>
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.nocamera.restrictions</string>
-      <key>PayloadUUID</key><string>F3B4C1D2-8A65-4D2F-9B11-0C4E5A6B7D89</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.lock.noCC.restrictions</string>
+      <key>PayloadUUID</key><string>AAAAAAA0-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
-      <key>allowCamera</key><false/>
+      <!-- Запрет Пункта управления на экране блокировки -->
+      <key>allowControlCenterInLockScreen</key><false/>
+      <!-- Опционально: Today/Уведомления на лока, если хочешь «чистый» лок -->
+      <!-- <key>allowTodayViewInLockScreen</key><false/> -->
+      <!-- <key>allowNotificationCenterInLockScreen</key><false/> -->
     </dict>
   </array>
 </dict>
