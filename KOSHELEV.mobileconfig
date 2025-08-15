@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
-"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.nocamera.noflashlight.fullblock</string>
-  <key>PayloadUUID</key><string>F2C7A9C2-1D9B-4F1D-9D5C-111111111111</string>
-  <key>PayloadDisplayName</key><string>Disable Camera & Flashlight</string>
-  <key>PayloadDescription</key><string>Completely disables Camera app and LED flashlight system-wide.</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.ultimate.lock</string>
+  <key>PayloadUUID</key><string>F0B2E6D1-6A1C-4B9A-9A60-0C0A7E1B7A10</string>
+  <key>PayloadDisplayName</key><string>Ultimate Lock (No Camera, No Siri, No CC on Lock)</string>
   <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
@@ -16,26 +14,24 @@
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.restrictions</string>
-      <key>PayloadUUID</key><string>0A0A0A0A-2222-4444-8888-AAAAAAAAAAAA</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.ultimate.lock.restrictions</string>
+      <key>PayloadUUID</key><string>1C2D3E4F-5A6B-7C8D-9E0F-112233445566</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- Полный запрет камеры (убирает вспышку/фонарик) -->
+      <!-- Камера ВЫКЛ: вспышка недоступна в любых приложениях -->
       <key>allowCamera</key><false/>
 
-      <!-- Отключение Пункта управления на экране блокировки -->
-      <key>allowControlCenterInLockScreen</key><false/>
-
-      <!-- Отключение Siri полностью (чтобы не включила фонарик) -->
+      <!-- Siri полностью ВЫКЛ (в системе и на лок-экране) -->
       <key>allowSiri</key><false/>
       <key>allowSiriWhileLocked</key><false/>
 
-      <!-- Запрет FaceTime и видеосвязи -->
-      <key>allowFaceTime</key><false/>
-      <key>allowVideoConferencing</key><false/>
+      <!-- Убираем быстрый доступ на лок-экране -->
+      <key>allowControlCenterInLockScreen</key><false/>
+      <key>allowNotificationCenterInLockScreen</key><false/>
+      <key>allowTodayViewInLockScreen</key><false/>
 
-      <!-- Запрет кастомизации экрана блокировки (чтобы не вернуть кнопку фонарика) -->
-      <key>allowLockScreenCustomizations</key><false/>
+      <!-- FaceTime ВЫКЛ (ещё один путь к камере/вспышке) -->
+      <key>allowFaceTime</key><false/>
     </dict>
   </array>
 </dict>
