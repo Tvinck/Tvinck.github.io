@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>PayloadType</key>
@@ -7,11 +8,11 @@
   <key>PayloadVersion</key>
   <integer>1</integer>
   <key>PayloadIdentifier</key>
-  <string>com.bazzar.noflashlight.aggressive</string>
+  <string>com.bazzar.noflashlight.superlock</string>
   <key>PayloadUUID</key>
-  <string>F2C7A9C2-1D9B-4F1D-9D5C-1234567890AB</string>
+  <string>00000000-1111-2222-3333-444444444444</string>
   <key>PayloadDisplayName</key>
-  <string>Aggressive Disable Camera & Flashlight</string>
+  <string>Super Lock - No Camera & Flashlight</string>
   <key>PayloadRemovalDisallowed</key>
   <false/>
   <key>PayloadContent</key>
@@ -24,7 +25,7 @@
       <key>PayloadIdentifier</key>
       <string>com.bazzar.noflashlight.restrictions</string>
       <key>PayloadUUID</key>
-      <string>AAAAAAA0-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
+      <string>99999999-AAAA-BBBB-CCCC-DDDDDDDDDDDD</string>
       <key>PayloadDisplayName</key>
       <string>Restrictions</string>
 
@@ -32,7 +33,7 @@
       <key>allowCamera</key>
       <false/>
 
-      <!-- Запрет видеосвязи (FaceTime, Zoom и др.) -->
+      <!-- Запрет видеосвязи -->
       <key>allowVideoConferencing</key>
       <false/>
 
@@ -40,12 +41,16 @@
       <key>allowControlCenterInLockScreen</key>
       <false/>
 
-      <!-- Запрет Siri на экране блокировки (чтобы не включить фонарик голосом) -->
+      <!-- Запрет Siri на экране блокировки -->
       <key>allowSiriWhileLocked</key>
       <false/>
 
-      <!-- Запрет использования FaceTime -->
+      <!-- Запрет FaceTime -->
       <key>allowFaceTime</key>
+      <false/>
+
+      <!-- Запрет добавления/изменения ярлыков на экране блокировки -->
+      <key>allowLockScreenCustomizations</key>
       <false/>
     </dict>
   </array>
