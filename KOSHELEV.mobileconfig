@@ -1,57 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
- "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
-  <key>PayloadIdentifier</key>
-  <string>com.bazzar.noflashlight.superlock</string>
-  <key>PayloadUUID</key>
-  <string>00000000-1111-2222-3333-444444444444</string>
-  <key>PayloadDisplayName</key>
-  <string>Super Lock - No Camera  Flashlight</string>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
+  <key>PayloadType</key><string>Configuration</string>
+  <key>PayloadVersion</key><integer>1</integer>
+  <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.aggressive</string>
+  <key>PayloadUUID</key><string>8D8B6F28-6E9C-4C62-9B0C-7F8B6E1C9A21</string>
+  <key>PayloadDisplayName</key><string>No Flashlight (Aggressive)</string>
+  <key>PayloadDescription</key><string>Disables Camera (thus LED flash/flashlight), disables Control Center on lock screen, and blocks Siri/FaceTime from lock screen.</string>
+  <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
+  <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
   <array>
     <dict>
-      <key>PayloadType</key>
-      <string>com.apple.applicationaccess</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadIdentifier</key>
-      <string>com.bazzar.noflashlight.restrictions</string>
-      <key>PayloadUUID</key>
-      <string>99999999-AAAA-BBBB-CCCC-DDDDDDDDDDDD</string>
-      <key>PayloadDisplayName</key>
-      <string>Restrictions</string>
+      <key>PayloadType</key><string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.restrictions</string>
+      <key>PayloadUUID</key><string>B7E4B2C9-3F5A-4D6E-9B18-3E4D0F9C1A55</string>
+      <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- Запрет камеры -->
-      <key>allowCamera</key>
-      <false/>
+      <!-- КАМЕРА ВЫКЛ (гасит вспышку/фонарик везде) -->
+      <key>allowCamera</key><false/>
 
-      <!-- Запрет видеосвязи -->
-      <key>allowVideoConferencing</key>
-      <false/>
+      <!-- ПУНКТ УПРАВЛЕНИЯ НА ЛОК-ЭКРАНЕ ВЫКЛ (нет быстрого фонарика) -->
+      <key>allowControlCenterInLockScreen</key><false/>
 
-      <!-- Запрет Пункта управления на экране блокировки -->
-      <key>allowControlCenterInLockScreen</key>
-      <false/>
+      <!-- SIRI ВЫКЛ на лок-экране (не включит фонарик голосом) -->
+      <key>allowSiriWhileLocked</key><false/>
+      <!-- (опционально можно вырубить Siri совсем) -->
+      <key>allowSiri</key><false/>
 
-      <!-- Запрет Siri на экране блокировки -->
-      <key>allowSiriWhileLocked</key>
-      <false/>
+      <!-- Facetime (ещё один путь к камере/вспышке) -->
+      <key>allowFaceTime</key><false/>
 
-      <!-- Запрет FaceTime -->
-      <key>allowFaceTime</key>
-      <false/>
-
-      <!-- Запрет изменения кнопок экрана блокировки -->
-      <key>allowLockScreenCustomizations</key>
-      <false/>
+      <!-- Дополнительно: чистый лок-экран без свайпов Today/Уведомлений -->
+      <key>allowTodayViewInLockScreen</key><false/>
+      <key>allowNotificationCenterInLockScreen</key><false/>
     </dict>
   </array>
 </dict>
