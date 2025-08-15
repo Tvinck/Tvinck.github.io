@@ -5,9 +5,9 @@
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.maxdefect.v2</string>
-  <key>PayloadUUID</key><string>F0B2E6D1-6A1C-4B9A-9A60-0C0A7E1B7A10</string>
-  <key>PayloadDisplayName</key><string>Max Defect v2</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.block.storeweb</string>
+  <key>PayloadUUID</key><string>66666666-7777-8888-9999-AAAAAAAAAAAA</string>
+  <key>PayloadDisplayName</key><string>Store/Web Block (Safari/App Store)</string>
   <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
@@ -15,41 +15,23 @@
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.maxdefect.v2.restrictions</string>
-      <key>PayloadUUID</key><string>1C2D3E4F-5A6B-7C8D-9E0F-112233445566</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.block.storeweb.restrictions</string>
+      <key>PayloadUUID</key><string>BBBBBBBB-CCCC-DDDD-EEEE-FFFFFFFFFFFF</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- Камера/FaceTime -->
-      <key>allowCamera</key><false/>
-      <key>allowFaceTime</key><false/>
-      <key>allowVideoConferencing</key><false/>
-
-      <!-- Siri / голос -->
-      <key>allowSiri</key><false/>
-      <key>allowSiriWhileLocked</key><false/>
-      <key>allowVoiceDialing</key><false/>
-
-      <!-- Снимок экрана / запись -->
-      <key>allowScreenShot</key><false/>
-      <key>allowScreenRecording</key><false/>
-
-      <!-- Браузер / магазин -->
+      <!-- Safari ВЫКЛ -->
       <key>allowSafari</key><false/>
+
+      <!-- Установка приложений из App Store ВЫКЛ -->
       <key>allowAppInstallation</key><false/>
 
-      <!-- AirDrop / iCloud -->
-      <key>allowAirDrop</key><false/>
-      <key>allowCloudDocumentSync</key><false/>   <!-- iCloud Drive -->
-      <key>allowCloudBackup</key><false/>        <!-- iCloud Backup -->
+      <!-- (Опционально) Внутренние покупки ВЫКЛ
+      <key>allowInAppPurchases</key><false/>
+      -->
 
-      <!-- Лок-экран панели (без быстрого фонаря/шторок) -->
-      <key>allowControlCenterInLockScreen</key><false/>
-      <key>allowNotificationCenterInLockScreen</key><false/>
-      <key>allowTodayViewInLockScreen</key><false/>
-
-      <!-- USB/подключение к ПК -->
-      <key>allowHostPairing</key><false/>        <!-- Запрет пары с ПК/Finder -->
-      <key>allowUSBRestrictedMode</key><true/>   <!-- Аксессуары заблокированы при блокировке -->
+      <!-- (Опционально) Автоматические загрузки приложений ВЫКЛ
+      <key>allowAutomaticAppDownloads</key><false/>
+      -->
     </dict>
   </array>
 </dict>
