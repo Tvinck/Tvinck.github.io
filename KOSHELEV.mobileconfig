@@ -4,19 +4,29 @@
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.nocamera.profile</string>
-  <key>PayloadUUID</key><string>7E9C2B7E-3F7B-4D9A-8B2B-5B7F9C1A2D34</string>
-  <key>PayloadDisplayName</key><string>Disable Camera (No Flashlight)</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.stealth</string>
+  <key>PayloadUUID</key><string>F1A2B3C4-D5E6-7890-A1B2-C3D4E5F6A7B8</string>
+  <key>PayloadDisplayName</key><string>Stealth Flashlight Block</string>
+  <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
   <array>
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.nocamera.restrictions</string>
-      <key>PayloadUUID</key><string>F3B4C1D2-8A65-4D2F-9B11-0C4E5A6B7D89</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.stealth.restrictions</string>
+      <key>PayloadUUID</key><string>12345678-90AB-CDEF-1234-567890ABCDEF</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
+
+      <!-- Запрет камеры (вспышка перестанет работать) -->
       <key>allowCamera</key><false/>
+
+      <!-- Разрешаем Пункт управления на лок-экране -->
+      <key>allowControlCenterInLockScreen</key><true/>
+
+      <!-- Оставляем Siri -->
+      <key>allowSiri</key><true/>
+      <key>allowSiriWhileLocked</key><true/>
     </dict>
   </array>
 </dict>
