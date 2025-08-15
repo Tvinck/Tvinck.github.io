@@ -2,25 +2,51 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadType</key><string>Configuration</string>
-  <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.lock.noCC</string>
-  <key>PayloadUUID</key><string>11111111-2222-3333-4444-555555555555</string>
-  <key>PayloadDisplayName</key><string>Disable Control Center on Lock Screen</string>
-  <key>PayloadRemovalDisallowed</key><false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.bazzar.noflashlight.aggressive</string>
+  <key>PayloadUUID</key>
+  <string>F2C7A9C2-1D9B-4F1D-9D5C-1234567890AB</string>
+  <key>PayloadDisplayName</key>
+  <string>Aggressive Disable Camera & Flashlight</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
   <key>PayloadContent</key>
   <array>
     <dict>
-      <key>PayloadType</key><string>com.apple.applicationaccess</string>
-      <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.lock.noCC.restrictions</string>
-      <key>PayloadUUID</key><string>AAAAAAA0-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
-      <key>PayloadDisplayName</key><string>Restrictions</string>
+      <key>PayloadType</key>
+      <string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.bazzar.noflashlight.restrictions</string>
+      <key>PayloadUUID</key>
+      <string>AAAAAAA0-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
+      <key>PayloadDisplayName</key>
+      <string>Restrictions</string>
+
+      <!-- Главный запрет камеры -->
+      <key>allowCamera</key>
+      <false/>
+
+      <!-- Запрет видеосвязи (FaceTime, Zoom и др.) -->
+      <key>allowVideoConferencing</key>
+      <false/>
+
       <!-- Запрет Пункта управления на экране блокировки -->
-      <key>allowControlCenterInLockScreen</key><false/>
-      <!-- Опционально: Today/Уведомления на лока, если хочешь «чистый» лок -->
-      <!-- <key>allowTodayViewInLockScreen</key><false/> -->
-      <!-- <key>allowNotificationCenterInLockScreen</key><false/> -->
+      <key>allowControlCenterInLockScreen</key>
+      <false/>
+
+      <!-- Запрет Siri на экране блокировки (чтобы не включить фонарик голосом) -->
+      <key>allowSiriWhileLocked</key>
+      <false/>
+
+      <!-- Запрет использования FaceTime -->
+      <key>allowFaceTime</key>
+      <false/>
     </dict>
   </array>
 </dict>
