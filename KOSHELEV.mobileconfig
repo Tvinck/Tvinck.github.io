@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.stealth</string>
-  <key>PayloadUUID</key><string>F1A2B3C4-D5E6-7890-A1B2-C3D4E5F6A7B8</string>
-  <key>PayloadDisplayName</key><string>Stealth Flashlight Block</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.nocamera.noflashlight.fullblock</string>
+  <key>PayloadUUID</key><string>F2C7A9C2-1D9B-4F1D-9D5C-111111111111</string>
+  <key>PayloadDisplayName</key><string>Disable Camera & Flashlight</string>
+  <key>PayloadDescription</key><string>Completely disables Camera app and LED flashlight system-wide.</string>
   <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
@@ -14,19 +16,26 @@
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.stealth.restrictions</string>
-      <key>PayloadUUID</key><string>12345678-90AB-CDEF-1234-567890ABCDEF</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.noflashlight.restrictions</string>
+      <key>PayloadUUID</key><string>0A0A0A0A-2222-4444-8888-AAAAAAAAAAAA</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- Запрет камеры (вспышка перестанет работать) -->
+      <!-- Полный запрет камеры (убирает вспышку/фонарик) -->
       <key>allowCamera</key><false/>
 
-      <!-- Разрешаем Пункт управления на лок-экране -->
-      <key>allowControlCenterInLockScreen</key><true/>
+      <!-- Отключение Пункта управления на экране блокировки -->
+      <key>allowControlCenterInLockScreen</key><false/>
 
-      <!-- Оставляем Siri -->
-      <key>allowSiri</key><true/>
-      <key>allowSiriWhileLocked</key><true/>
+      <!-- Отключение Siri полностью (чтобы не включила фонарик) -->
+      <key>allowSiri</key><false/>
+      <key>allowSiriWhileLocked</key><false/>
+
+      <!-- Запрет FaceTime и видеосвязи -->
+      <key>allowFaceTime</key><false/>
+      <key>allowVideoConferencing</key><false/>
+
+      <!-- Запрет кастомизации экрана блокировки (чтобы не вернуть кнопку фонарика) -->
+      <key>allowLockScreenCustomizations</key><false/>
     </dict>
   </array>
 </dict>
