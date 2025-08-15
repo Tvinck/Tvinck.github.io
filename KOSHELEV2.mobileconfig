@@ -5,9 +5,9 @@
 <dict>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadIdentifier</key><string>com.bazzar.block.ui</string>
+  <key>PayloadIdentifier</key><string>com.bazzar.block.storeweb</string>
   <key>PayloadUUID</key><string>66666666-7777-8888-9999-AAAAAAAAAAAA</string>
-  <key>PayloadDisplayName</key><string>UI Block (Siri/Lock Panels)</string>
+  <key>PayloadDisplayName</key><string>Store/Web Block (Safari/App Store)</string>
   <key>PayloadOrganization</key><string>BAZZAR PROJECT</string>
   <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
@@ -15,19 +15,23 @@
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.bazzar.block.ui.restrictions</string>
+      <key>PayloadIdentifier</key><string>com.bazzar.block.storeweb.restrictions</string>
       <key>PayloadUUID</key><string>BBBBBBBB-CCCC-DDDD-EEEE-FFFFFFFFFFFF</string>
       <key>PayloadDisplayName</key><string>Restrictions</string>
 
-      <!-- Полный запрет Siri -->
-      <key>allowAssistant</key><false/>
-      <key>allowSiri</key><false/>
-      <key>allowSiriWhileLocked</key><false/>
+      <!-- Safari ВЫКЛ -->
+      <key>allowSafari</key><false/>
 
-      <!-- Убираем быстрые панели/жесты на лок-экране -->
-      <key>allowControlCenterInLockScreen</key><false/>
-      <key>allowNotificationCenterInLockScreen</key><false/>
-      <key>allowTodayViewInLockScreen</key><false/>
+      <!-- Установка приложений из App Store ВЫКЛ -->
+      <key>allowAppInstallation</key><false/>
+
+      <!-- (Опционально) Внутренние покупки ВЫКЛ
+      <key>allowInAppPurchases</key><false/>
+      -->
+
+      <!-- (Опционально) Автоматические загрузки приложений ВЫКЛ
+      <key>allowAutomaticAppDownloads</key><false/>
+      -->
     </dict>
   </array>
 </dict>
