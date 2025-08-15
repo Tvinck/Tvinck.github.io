@@ -2,40 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
-
-  <key>PayloadIdentifier</key>
-  <string>com.example.nocamera.profile</string>
-  <key>PayloadUUID</key>
-  <string>7E9C2B7E-3F7B-4D9A-8B2B-5B7F9C1A2D34</string>
-  <key>PayloadDisplayName</key>
-  <string>Disable Camera (No Flashlight)</string>
-  <key>PayloadDescription</key>
-  <string>Disables Camera app which also disables LED flash / flashlight systemwide.</string>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
-
+  <key>PayloadType</key><string>Configuration</string>
+  <key>PayloadVersion</key><integer>1</integer>
+  <key>PayloadIdentifier</key><string>com.bazzar.nocamera.profile</string>
+  <key>PayloadUUID</key><string>7E9C2B7E-3F7B-4D9A-8B2B-5B7F9C1A2D34</string>
+  <key>PayloadDisplayName</key><string>Disable Camera (No Flashlight)</string>
+  <key>PayloadRemovalDisallowed</key><false/>
   <key>PayloadContent</key>
   <array>
     <dict>
-      <key>PayloadType</key>
-      <string>com.apple.applicationaccess</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-
-      <key>PayloadIdentifier</key>
-      <string>com.example.nocamera.restrictions</string>
-      <key>PayloadUUID</key>
-      <string>F3B4C1D2-8A65-4D2F-9B11-0C4E5A6B7D89</string>
-      <key>PayloadDisplayName</key>
-      <string>Restrictions</string>
-
-      <!-- Ключ, который действительно работает -->
-      <key>allowCamera</key>
-      <false/>
+      <key>PayloadType</key><string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.bazzar.nocamera.restrictions</string>
+      <key>PayloadUUID</key><string>F3B4C1D2-8A65-4D2F-9B11-0C4E5A6B7D89</string>
+      <key>PayloadDisplayName</key><string>Restrictions</string>
+      <key>allowCamera</key><false/>
     </dict>
   </array>
 </dict>
